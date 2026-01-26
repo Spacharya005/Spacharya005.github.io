@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shramanth P. Acharya — Robotics & AI Engineer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+  <!-- <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script> -->
+  <!-- If you don't have a kit, replace icons or use CDN: -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
+
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Portfolio of Shramanth P. Acharya — Robotics, AI, and Embedded Systems.">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Shramanth<span class="dot">.</span></a>
+
+      <nav id="navbar" class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link cta">Contact</a>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="toggle navigation">
+        <span class="burger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Shramanth P. Acharya</span></h1>
+          <p class="lead">Robotics &amp; AI Engineer — building intelligent systems, autonomous robots, and embedded solutions.</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn">See Projects</a>
+            <a href="assets/Shramanth.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+
+          <div class="skills">
+            <span class="skill">C</span>
+            <span class="skill">Python</span>
+            <!-- <span class="skill">ROS 2</span> -->
+            <span class="skill">Neural Network</span>
+            <span class="skill">3D Printing</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Internet of Things(IOT)</span>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/Spacharya005" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/shramanth-p-acharya-727172297" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:shramanthpa@gmail.com" target="_blank" rel="noopener" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img src="assets/images/profile.jpg" alt="Shramanth profile photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm a Robotics &amp; AI Engineer with experience in building autonomous systems, integrating sensors, and training computer vision models.
+              I enjoy designing practical solutions that combine embedded systems, control, and machine learning to solve real-world problems.
+            </p>
+
+            <ul class="about-list">
+              <li><strong>Education:</strong> B.E. in Robotics and AI</li>
+              <li><strong>Interests:</strong> Robotics, Computer Vision, Machine learning, Neural networks, Internet of Things(IOT)</li>
+              <li><strong>Tools:</strong> TensorFlow, OpenCV, Fusion360, 3D Printing- SnapMaker Luban</li>
+            </ul>
+
+            <a href="assets/Shramanth.pdf" class="btn" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-value">2+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">3</div>
+              <div class="stat-label">Internships</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">Languages</div>
+              <div class="stat-label">C, Python</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Selected Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Project card 1 -->
+          <article class="project-card">
+            <img src="assets/images/project1.jpg" alt="Project 1 image">
+            <div class="project-body">
+              <h3>SPRAYTECH: A Smart and Sustainable Robotic Solution for Precision Pesticide Application in Agriculture</h3>
+              <p>Developed a lightweight CNN on edge for real-time plant disease classification using OpenCV and TensorFlow Lite.</p>
+              <p class="muted">Tech: Python · TensorFlow · OpenCV · ESP32-CAM</p>
+              <div class="project-actions">
+                <a href="https://github.com/Spacharya005/MAJOR_2024" target="_blank" rel="noopener" class="link">Source</a>
+                <button class="btn-sm" data-project='{"title":"Weed Detection using CNN","desc":"Edge-compatible CNN for plant/weed classification; includes preprocessing, augmentation, and TFLite export.","tech":"Python, TensorFlow, OpenCV, ESP32-CAM"}'>Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="project-card">
+            <img src="assets/images/project2.jpg" alt="Project 2 image">
+            <div class="project-body">
+              <h3>Development of Mobile Robot for Tracking Application</h3>
+              <p>Built a skid-steer mobile robot with ESP32-CAM for navigation and remote control; semi-autonomous behaviors implemented.</p>
+              <p class="muted">Tech: ESP32 · Python· OpenCV</p>
+              <div class="project-actions">
+                <a href="https://github.com/Spacharya005/Mini_Project" target="_blank" rel="noopener" class="link">Source</a>
+                <button class="btn-sm" data-project='{"title":"Skid-Steer Mobile Robot","desc":"Semi-autonomous robot using ESP32-CAM and ROS2 for navigation and obstacle avoidance.","tech":"ESP32, ROS 2, OpenCV"}'>Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 3 (example) -->
+          <article class="project-card">
+            <img src="assets/images/project3.jpg" alt="Project 3 image">
+            <div class="project-body">
+              <h3>Omnidirectional Wheeled Mobile Robot</h3>
+              <p>Building a four wheeled robot car with Omni wheels. Omni wheels can make a robot drive sideways without rotating first. They can make a robot rotate at the same time as it goes straight ahead.</p>
+              <p class="muted">Tech: MATLAB · Kinematics · C++</p>
+              <div class="project-actions">
+                <a href="https://github.com/Spacharya005/OMNI-4WD-Mobile" target="_blank" rel="noopener" class="link">Source</a>
+                <button class="btn-sm" data-project='{"title":"Omni Wheel Robot","desc":"Mobile Robot with four omni wheels controlled  C++ controller nodes.","tech":"MATLAB, Kinematic, C++"}'>Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="exp-list">
+          <div class="exp-item">
+            <h3>Robotics Intern — Experimind Labs Pvt. Ltd.</h3>
+            <p class="muted">Expected May 2025 – Present</p>
+            <ul>
+              <li>Develop and execute comprehensive production strategies and mentoring interns of the company.</li>
+              <li>Lead, mentor, and manage a high-performing team of interns , fostering a collaborative and results-driven work environment.</li>
+            </ul>
+          </div>
+
+          <div class="exp-item">
+            <h3>Project Intern — Experimind Labs Pvt. Ltd.</h3>
+            <p class="muted">Jan 2025 – April 2025</p>
+            <ul>
+              <li>Development of the Shiksha Robot—an interactive, AI-assisted educational robot. </li>
+              <li>Aimed at transforming conventional classroom learning, to engage students through speech, gestures, LED animations, and content-based interactivity.</li>
+            </ul>
+          </div>
+
+           <div class="exp-item">
+            <h3>Research Intern — Research and Innovation Center, Nitte</h3>
+            <p class="muted">Feb 2023</p>
+            <ul>
+              <li>Development of Kinematic Model and control system for a robot equipped with four Omni wheels.  </li>
+              <li>The core focus of the project is on kinematic modelling, motion control in different surface,</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <!-- <div class="container"> -->
+        <!-- <h2>Contact</h2>
+
+        <div class="contact-grid"> -->
+          <!-- <form id="contact-form" class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input id="name" name="Name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="Email" type="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Email</button>
+            <!-- <p class="muted">Or reach me directly at <a href="mailto:your.email@example.com">your.email@example.com</a></p> -->
+          </form> 
+
+          <div class="contact-info">
+            <h3>Let's build something</h3>
+            <p>I’m available for internships and projects. Open to collaborating on robotics, AI, and embedded systems.</p>
+
+            <ul class="info-list">
+              <li><strong>Email:</strong> shramanthpa@gmail.com</li>
+              <li><strong>Location:</strong> Udupi, Karnataka, India</li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/Spacharya005" target="_blank" rel="noopener">github.com/Spacharya@005</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Shramanth P. Acharya.</p>
+      <div class="footer-links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project details modal -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="close modal">&times;</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+      <p id="modal-tech" class="muted"></p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
